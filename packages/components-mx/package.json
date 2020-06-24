@@ -1,0 +1,33 @@
+{
+  "name": "components-mx",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Gabriel Ribeiro <biel.ribeiro1990@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "source": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "microbundle watch --jsx React.createElement lib/*.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "microbundle": "^0.12.2"
+  },
+  "dependencies": {}
+}
